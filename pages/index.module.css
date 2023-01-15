@@ -73,4 +73,13 @@
   /* margin: auto 0; */
   color: white;
   padding:60px;
+  
+}
+
+@media (max-width: 540px)
+{
+  .main .result
+   {
+    line-height:1.2;
+   }
 }
