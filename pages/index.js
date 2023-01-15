@@ -22,6 +22,7 @@ export default function Home() {
         throw data.error || new Error(`Request failed with status ${response.status}`);
       }
 
+      
       setResult(data.result);
       setFilmeInput("");
     } catch(error) {
@@ -52,7 +53,12 @@ export default function Home() {
           <input type="submit" value="Generate names" />
         </form>
         <div className={styles.result}>{result}</div>
+        <div className="power">
+        <img src="/logo_openai.svg"  width={200} height={80}/>
+      </div>
       </main>
+      
+
     </div>
   );
 }
