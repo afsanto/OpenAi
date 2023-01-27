@@ -51,6 +51,7 @@ export default function Home() {
             onChange={(e) => setFilmeInput(e.target.value)}
           />
           <input type="submit" value="Generate names" />
+          <p>Utilize nomes de filmes lançados até a data de Dez/2021</p>
         </form>
         <div className={styles.result}>{result}</div>
         <div className="power">
