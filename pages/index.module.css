@@ -64,6 +64,12 @@
   text-align: center;
   cursor: pointer;
 }
+
+.main p{
+  font-size:.75rem;
+  color: white;
+}
+
 .main .result {
   display: flex;
   flex-direction: column;
